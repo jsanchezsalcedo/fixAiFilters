@@ -30,17 +30,11 @@ class FixFilters:
 
                 if checkConn == True:
 
-                    print filterNumber, checkConn
-
                     continue
 
                 else:
 
-                    print filterNumber, checkConn
-
                     connectionNumber = (filterNumber) + 1
-
-                    print filterNumber, connectionNumber
 
                     return light, filterNumber, connectionNumber
 
@@ -53,8 +47,6 @@ class FixFilters:
             connectionNumber = + connectionNumber + 1
 
             nextFilter = cmds.connectionInfo(light + '.aiFilters[' + str(connectionNumber) + ']', ied = True)
-
-            print connectionNumber, nextFilter
 
             if nextFilter == True:
 
