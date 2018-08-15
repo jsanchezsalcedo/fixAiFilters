@@ -8,10 +8,11 @@ Fix aiFilters connections when, between them, are free slots. Check available sl
 
 <b>Instructions</b>
 · Copy the script in your scripts project folder.
+
 · Copy into the script editor this code:
+
     import fixFilterSlots
     reload(fixFilterSlots)
     fixFilterSlots.FixFilters()
+    
 · Select the code and drag and drop into your shelf.
-
-
