@@ -1,18 +1,15 @@
-# FIX aiFILTERS CONNECTIONS v0.10
+# FIX aiFILTERS CONNECTIONS v1.0.1
 by Jorge Sanchez Salcedo, 2018 
 
-Fix aiFilters connections when, between them, are free slots. Check available slots between filters and re-connect the filters on these slots.
-
-<b>Bugs</b>
-· I have checked the script and works fine but, when it finished gives an Error, don't worry, if you checked the light you could see all the filters connected.
+Fix aiFilters connections when, between them, are free slots. Checks available slots between filters and re-connect the filters on these slots.
 
 <b>Instructions</b>
-· Copy the script in your scripts project folder.
+<p>· Copy the script in your scripts project folder.</p>
 
-· Copy into the script editor this code:
+<p>· Copy into the script editor this code:</p>
 
     import fixFilterSlots
     reload(fixFilterSlots)
     fixFilterSlots.FixFilters()
     
-· Select the code and drag and drop into your shelf.
+<p>· Select the code and drag and drop into your shelf.</p>
