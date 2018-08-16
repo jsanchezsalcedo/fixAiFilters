@@ -8,8 +8,8 @@ Fix aiFilters connections when, between them, are free slots. Checks available s
 
 <p>· Copy into the script editor this code:</p>
 
-    import fixFilterSlots
-    reload(fixFilterSlots)
-    fixFilterSlots.FixFilters()
+    import fixAiFilters
+    reload(fixAiFilters)
+    fixAiFilters.FixFilters()
     
 <p>· Select the code and drag and drop into your shelf.</p>
